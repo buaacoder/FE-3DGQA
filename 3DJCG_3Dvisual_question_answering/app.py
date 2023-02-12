@@ -4,11 +4,12 @@ from typing import Optional
 
 import aiofiles
 import torch
+import argparse
 from fastapi import FastAPI, UploadFile
 from PIL import Image
 
 # from .models import ImageEntityRecognition
-from .model_util_scannet import ScannetDatasetConfig
+from data.scannet.model_util_scannet import ScannetDatasetConfig
 from models.vqanet.vqanet import VqaNet
 
 app = FastAPI()
