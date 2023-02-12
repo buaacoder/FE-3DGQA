@@ -192,3 +192,6 @@ poetry.toml
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
+
+3DJCG_3Dvisual_question_answering/outputs
+3DJCG_3Dvisual_question_answering/outputs/*

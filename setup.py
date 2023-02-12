@@ -36,5 +36,13 @@ if __name__ == "__main__":
             "fastapi",
             "uvicorn[standard]",
             "python-multipart",
+            "plyfile",
+            "opencv-python",
+            "trimesh==2.35.39",
+            "tensorboardX",
+            "easydict",
+            "tqdm",
+            "h5py",
+            "matplotlib"
         ],
     )
