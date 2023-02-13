@@ -1,0 +1,52 @@
+epoch 1 starting...
+
+-------------------------------iter: [1: 1/56600]-------------------------------
+[loss] train_loss: 60.56277
+[loss] train_related_object_loss: 41.63816
+[loss] train_vqa_loss: 7.52347
+[loss] train_lang_loss: 3.11539
+[loss] train_objectness_loss: 0.1625
+[loss] train_vote_loss: 1.24724
+[loss] train_box_loss: 2.17893
+[loss] train_lang_acc: 0.0
+[sco.] train_vqa_acc: 0.0
+[sco.] train_number_acc: 0.0
+[sco.] train_color_acc: 0.0
+[sco.] train_yes_no_acc: 0.0
+[sco.] train_other_acc: 0.0
+[sco.] train_obj_acc: 0.21582
+[sco.] train_pos_ratio: 0.05615, train_neg_ratio: 0.94385
+[sco.] train_iou50_mAP: 0.0, train_iou50_mR: 0.01786
+[sco.] train_iou_max_recall_0.25: 0.07812, train_iou_max_recall_0.5: 0.00781
+[info] mean_fetch_time: 0.76958s
+[info] now_fetch_time: 0.76958s
+[info] mean_forward_time: 11.28358s
+[info] mean_backward_time: 2.73708s
+[info] mean_eval_time: 6.5235s
+[info] mean_iter_time: 20.54416s (no fetch time)
+[info] mean_real_time: 22.66235s
+[info] ETA: 369h 39m 18s
+
+training completed...
+
+--------------------------------------best--------------------------------------
+[best] epoch: 0
+[loss] loss: inf
+[loss] related_object_loss: inf
+[loss] vqa_loss: inf
+[loss] lang_loss: inf
+[loss] objectness_loss: inf
+[loss] vote_loss: inf
+[loss] box_loss: inf
+[loss] lang_acc: -inf
+[sco.] vqa_acc: -inf
+[sco.] number_acc: -inf
+[sco.] color_acc: -inf
+[sco.] yes_no_acc: -inf
+[sco.] other_acc: -inf
+[sco.] obj_acc: -inf
+[sco.] pos_ratio: -inf, neg_ratio: -inf
+[sco.] iou50_mAP: -inf, iou50_mR: -inf
+
+saving checkpoint...
+

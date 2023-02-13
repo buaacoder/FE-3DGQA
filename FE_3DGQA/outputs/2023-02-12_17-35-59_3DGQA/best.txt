@@ -1,0 +1,19 @@
+
+--------------------------------------best--------------------------------------
+[best] epoch: 0
+[loss] loss: inf
+[loss] related_object_loss: inf
+[loss] vqa_loss: inf
+[loss] lang_loss: inf
+[loss] objectness_loss: inf
+[loss] vote_loss: inf
+[loss] box_loss: inf
+[loss] lang_acc: -inf
+[sco.] vqa_acc: -inf
+[sco.] number_acc: -inf
+[sco.] color_acc: -inf
+[sco.] yes_no_acc: -inf
+[sco.] other_acc: -inf
+[sco.] obj_acc: -inf
+[sco.] pos_ratio: -inf, neg_ratio: -inf
+[sco.] iou50_mAP: -inf, iou50_mR: -inf
