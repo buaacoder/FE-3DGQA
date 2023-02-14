@@ -9,11 +9,11 @@ import numpy as np
 import os
 import sys
 
-import lib.pointnet2.pointnet2_utils
-from data.scannet.model_util_scannet import ScannetDatasetConfig
-from lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes
+import ...lib.pointnet2.pointnet2_utils
+from ...data.scannet.model_util_scannet import ScannetDatasetConfig
+from ...lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes
 # from utils.box_util import get_3d_box_batch_of_rois_tensor, rotz_batch_pytorch
-from utils.box_util import get_3d_box_batch, rotz_batch_pytorch
+from ...utils.box_util import get_3d_box_batch, rotz_batch_pytorch
 
 from .detr.detr3d import DETR3D   # from paper Transformer3D-Det
 from .detr.transformer3D import decode_scores_boxes

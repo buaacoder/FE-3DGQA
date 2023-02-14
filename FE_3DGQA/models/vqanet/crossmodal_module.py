@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from models.transformer.attention import MultiHeadAttention
-from models.transformer.utils import PositionWiseFeedForward
+from ..transformer.attention import MultiHeadAttention
+from ..transformer.utils import PositionWiseFeedForward
 import random
-from lib.configs.config_vqa import CONF
+from ...lib.configs.config_vqa import CONF
 
 class CrossAttnModule(nn.Module):  # cross-self-cross-self-cross...; the depth
     def __init__(self, hidden_size, head, depth):

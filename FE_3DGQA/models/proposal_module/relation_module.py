@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from models.transformer.attention import MultiHeadAttention
-from models.transformer.utils import PositionWiseFeedForward
+from ..transformer.attention import MultiHeadAttention
+from ..transformer.utils import PositionWiseFeedForward
 import random
 
 

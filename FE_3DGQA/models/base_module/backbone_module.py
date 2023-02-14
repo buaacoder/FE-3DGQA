@@ -5,7 +5,7 @@ import numpy as np
 import sys
 import os
 
-from lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes, PointnetFPModule
+from ...lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes, PointnetFPModule
 
 class Pointnet2Backbone(nn.Module):
     r"""

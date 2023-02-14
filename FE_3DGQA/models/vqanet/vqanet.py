@@ -4,11 +4,11 @@ import numpy as np
 import sys
 import os
 
-from models.base_module.backbone_module import Pointnet2Backbone
-from models.base_module.voting_module import VotingModule
+from ..base_module.backbone_module import Pointnet2Backbone
+from ..base_module.voting_module import VotingModule
 
-from models.proposal_module.proposal_module_fcos import ProposalModule
-from models.proposal_module.relation_module import RelationModule
+from ..proposal_module.proposal_module_fcos import ProposalModule
+from ..proposal_module.relation_module import RelationModule
 
 from .lang_module_t5 import LangModule
 from .crossmodal_module import CrossmodalModule

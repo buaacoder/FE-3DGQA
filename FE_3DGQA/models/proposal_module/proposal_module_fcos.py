@@ -9,12 +9,12 @@ import numpy as np
 import os
 import sys
 
-import lib.pointnet2.pointnet2_utils
-from data.scannet.model_util_scannet import ScannetDatasetConfig
-from lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes
+# import ...lib.pointnet2.pointnet2_utils
+from ...data.scannet.model_util_scannet import ScannetDatasetConfig
+from ...lib.pointnet2.pointnet2_modules import PointnetSAModuleVotes
 # from utils.box_util import get_3d_box_batch_of_rois_tensor, rotz_batch_pytorch
-from utils.box_util import get_3d_box_batch, rotz_batch_pytorch
-from models.proposal_module.ROI_heads.roi_heads import StandardROIHeads
+from ...utils.box_util import get_3d_box_batch, rotz_batch_pytorch
+from .ROI_heads.roi_heads import StandardROIHeads
 
 class ProposalModule(nn.Module):
     def __init__(self, num_class, num_heading_bin, num_size_cluster, mean_size_arr, num_proposal, sampling, seed_feat_dim=256):

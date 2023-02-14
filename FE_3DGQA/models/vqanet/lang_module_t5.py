@@ -5,11 +5,11 @@ import torch.nn.functional as F
 import random
 import copy
 
-from models.transformer.attention import MultiHeadAttention
+from ..transformer.attention import MultiHeadAttention
 from transformers import AutoTokenizer, AutoModel, T5ForConditionalGeneration
 from .modified_t5 import T5Model
 
-from lib.configs.config_vqa import CONF
+from ...lib.configs.config_vqa import CONF
 
 class LangModule(nn.Module):  # num_text_classes: question id types
     def __init__(self, num_text_classes=100, answer_class_number=2000, model_name='t5', pretrained_path='/mnt/lustre/zhaolichen/codes/3dvl/t5_base',
