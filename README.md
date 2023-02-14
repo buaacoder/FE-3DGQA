@@ -12,7 +12,7 @@ In this work, we formally define and address a 3D grounded VQA task by collectin
 2. Fill out [this form](https://forms.gle/aLtzXN12DsYDMSXX6). Once your request is accepted, you will receive an email with the download link. Download the ScanRefer dataset and unzip it under `data/`.
 3. Downloadand the preprocessed [GLoVE embeddings (~990MB)](http://kaldir.vc.in.tum.de/glove.p) and put them under `data/`.
 4. Download the ScanNetV2 dataset and put (or link) `scans/` under (or to) `data/scannet/scans/` (Please follow the [ScanNet Instructions](data/scannet/README.md) for downloading the ScanNet dataset).
-5. 将ScanRefer仓库(https://github.com/daveredrum/ScanRefer/tree/master/data/scannet)中的`meta_data`文件夹以及其他5个`.py`文件放在`data/scannet`目录下
+5. 将[ScanRefer仓库](https://github.com/daveredrum/ScanRefer/tree/master/data/scannet)中的`meta_data`文件夹以及其他5个`.py`文件放在`data/scannet`目录下
 
 > After this step, there should be folders containing the ScanNet scene data under the `data/scannet/scans/` with names like `scene0000_00`
 
